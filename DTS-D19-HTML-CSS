@@ -18,9 +18,11 @@
   <link rel="stylesheet" href="mobile.css">
   <style type="text/css">
   .btn-group {
-    float:right;
+    float: right;
   }
-  
+  .links-clearfix {
+    float: right;
+  }
   
   
   
@@ -101,15 +103,15 @@
 
 
 
-      <div class="Badging">
-        <span class="badge badge-pill badge-primary">Primary</span>
-        <span class="badge badge-pill badge-secondary">Secondary</span>
+      <div class="Badging">*Transaction Information :   
+        <span class="badge badge-pill badge-primary">Submit</span>
+        <span class="badge badge-pill badge-secondary">Identify</span>
+        <span class="badge badge-pill badge-warning">Validate</span>   
         <span class="badge badge-pill badge-success">Success</span>
-        <span class="badge badge-pill badge-danger">Danger</span>
-        <span class="badge badge-pill badge-warning">Warning</span>
+        <span class="badge badge-pill badge-danger">Failed</span>
         <span class="badge badge-pill badge-info">Info</span>
-        <span class="badge badge-pill badge-light">Light</span>
-        <span class="badge badge-pill badge-dark">Dark</span> 
+        <span class="badge badge-pill badge-light">Distribute</span>
+        <span class="badge badge-pill badge-dark">Served</span> 
      </div>
   <div class='wrapper clearfix'>
       <h1 class='clearfix' title='Sst... Awas Hati-Hati'></h1>
@@ -148,7 +150,7 @@
   
       
   
-      <p class='links clearfix'>
+      <p class='links-clearfix'>
          <a href='https://twitter.com/' title='Follow us on Twitter...'>
             <span class='fa-stack fa-2x'>
               <i class='fa fa-circle fa-stack-2x'></i>
@@ -161,7 +163,7 @@
               <i class='fa fa-facebook fa-stack-1x fa-inverse'></i>
           </span>
          </a>
-       <a href='mailto:fahmiyusriansyah12@gmail.com' title='Send us email...'>
+       <a href='mailto:blockflash@gmail.com' title='Send us email...'>
           <span class='fa-stack fa-2x'>
               <i class='fa fa-circle fa-stack-2x'></i>
               <i class='fa fa-envelope fa-stack-1x fa-inverse'></i>
