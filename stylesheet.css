@@ -25,8 +25,35 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(54, 22, 33, 0.5);
+  background-color: rgba(116, 124, 146, 0.5);
   position :fixed;
   top: 0;
   z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer p {
+  color: #262626;
+  font-size: 12px;
+}
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
