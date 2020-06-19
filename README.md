@@ -1,6 +1,6 @@
 # OADTS-2020-D19-HTML-CSS-Project
 
-File Project.html = file html yang dieksekusi<br>
+index.html = file html yang dieksekusi (file project)<br>
 stylesheet.css = file css styling yang di eksekusi<br>
 responsive.css = file css desain responsif untuk smartphone dan tablet
 
