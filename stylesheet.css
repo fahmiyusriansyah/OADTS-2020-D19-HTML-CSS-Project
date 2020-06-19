@@ -22,13 +22,22 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+li {
+  list-style: none;
+}
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(116, 124, 146, 0.5);
+  background-color: rgba(116, 124, 146, 0.8);
   position :fixed;
   top: 0;
   z-index: 10;
+}
+.header-left {
+  color:white;
+  padding-top:7px;
+  display:inline-block;
+  height:65px;
 }
 
 
@@ -36,8 +45,28 @@ header {
 
 
 
+.bagian-1 {
+  padding: 120px 0 100px 0;
+  background-color:#262626;
+  color: white;
+  text-align: center;
+}
+.bagian-1 p {
+  padding:50px;
+}
 
 
+
+
+
+.bagian-2 {
+  height:1000px;
+  text-align: center;
+}
+.bagian-2 h1 {
+  font-size: 50px;
+  margin-top:300px;
+}
 
 
 
@@ -52,8 +81,18 @@ header {
 footer p {
   color: #262626;
   font-size: 12px;
+  float:center;
 }
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+}
+footer li {
+  float: left;
+  padding-right: 25px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.clear {
+  clear: left;
 }
