@@ -68,9 +68,9 @@ header {
 .bagian-1 {
   padding: 120px 0 100px 0;
   background-color: red; /* For browsers that do not support gradients */
-  background-image: url(https://cdn2.tstatic.net/aceh/foto/bank/images/aurora-borealis.jpg);
+  background-image: url(https://www.patrickcullis.com/images/antarctica%2018.jpg?crc=287837852);
   background-size: cover;
-  opacity: 0.98;
+  opacity: 0.92;
   color: white;
   text-align: center;
 }
@@ -84,7 +84,7 @@ header {
 
 .bagian-2 {
   height:1000px;
-  padding: 180px 0 100px 0;
+  padding: 70px 0 80px 0;
   background-image: url(https://cdn.theatlantic.com/thumbor/wyUUQHaA7M5VHTvL58HgbVRXGH4=/900x596/media/img/photo/2017/11/a-photo-trip-to-antarctica/a01_19157599833/original.jpg);
   background-size: cover;
   color: white;
@@ -130,13 +130,16 @@ footer li {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 50%;
+  width: 33%;
   color: black;
-  padding: 0 10px;
+  padding: 4px 4px;
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+  margin: -10px -15px;
+  padding-bottom: 10px;
+}
 
 /* Clear floats after the columns */
 .row:after {
