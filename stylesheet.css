@@ -37,16 +37,40 @@ header {
   padding-top:7px;
   display:inline-block;
   height:65px;
+  float: left;
+  background-color: transparent;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  border-radius: 15px;
 }
 
+@keyframes example {
+  0%   {background-color:transparent; left:0px; left: ;:0px;}
+  25%  {background-color:transparent; left: ;:300px; left: ;:0px;}
+  50%  {background-color:transparent; left: ;:300p; left: ;:300px;}
+  75%  {background-color:transparent; left:0px; left:300px;}
+  100% {background-color:transparent; left:0px; left: ;:0px;}
+}
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
 
-
-
+.fa {
+  margin-right: 5px;
+}
 
 .bagian-1 {
   padding: 120px 0 100px 0;
-  background-color:#262626;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: url(https://cdn2.tstatic.net/aceh/foto/bank/images/aurora-borealis.jpg);
+  background-size: cover;
+  opacity: 0.98;
   color: white;
   text-align: center;
 }
@@ -60,13 +84,18 @@ header {
 
 .bagian-2 {
   height:1000px;
+  padding: 180px 0 100px 0;
+  background-image: url(https://droidpoin.com/wp-content/uploads/2020/06/Wallpaper-Perusak-Ponsel.jpg);
+  background-size: cover;
+  color: white;
   text-align: center;
+  text-align: center;
+  
 }
 .bagian-2 h1 {
   font-size: 50px;
   margin-top:300px;
 }
-
 
 
 
@@ -95,3 +124,102 @@ footer li {
 .clear {
   clear: left;
 }
+
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  color: black;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dropbtn {
+  border-radius: 15px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.dropbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dropbtn:hover span {
+  padding-right: 25px;
+}
+
+.dropbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn:hover {
+  width: auto;
+  height: auto;
+  transform: rotate(1080deg);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
