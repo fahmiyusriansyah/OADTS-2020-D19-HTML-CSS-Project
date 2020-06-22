@@ -33,6 +33,9 @@
     padding-bottom: 20px;
     text-align:center;
   }
+  footer p {
+    margin-top:30px;
+  }
   footer h3 {
     margin-bottom:20px;
   }
