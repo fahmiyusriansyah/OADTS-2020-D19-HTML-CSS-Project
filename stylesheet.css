@@ -117,9 +117,15 @@ footer {
 }
 footer li {
   float: left;
-  padding-right: 25px;
-  padding-top:20px;
-  padding-bottom:20px;
+  margin-right:40px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+footer li:hover {
+  text-decoration: underline;
+}
+footer a {
+  color:black;
 }
 .clear {
   clear: left;
